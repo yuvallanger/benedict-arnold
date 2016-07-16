@@ -1,0 +1,28 @@
+{
+    "workers_size": 2,
+    "identity": {
+        "nick": "BenedictArnold",
+        "user": "reddit",
+        "real_name": "NASA Satellite"
+    },
+    "server": {
+        "host": "irc.rizon.net",
+        "port": 6697,
+        "use_ssl": true,
+        "password": ""
+    },
+    "channels": ["#nasa_surveilance_van_no.7"],
+    "bind_addr": "an.ip.address",
+    "nickserv_password": "password",
+
+    "extension": {
+        "twitter.stream": {
+            "channel": "#burgersandfries",
+            "consumer_key": "...",
+            "consumer_secret": "...",
+            "access_token": "...",
+            "access_token_secret": "...",
+            "owner_host": "your vhost here"
+        }
+    }
+}
